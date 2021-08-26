@@ -1,6 +1,6 @@
-## PromisedScene 0.4.2
+## PromisedScene 0.4.3
 
-by Ch00nassid a.k.a: DGs.Ch00, leadwolf
+by Ch00nassid a.k.a: DGs.Ch00, leadwolf, arcadianCdr
 
 TPDB parser. Manual input possible: manual scene data entry, TPDB search result confirmation
 
@@ -10,7 +10,6 @@ Make sure you are reading the documentation of the plugin, for the correct porn-
 | Server version                                                                                                 | Plugin documentation                                                                                          |
 | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | [Download link for: stable](https://raw.githubusercontent.com/porn-vault/plugins/master/dist/PromisedScene.js) | [documentation](https://github.com/porn-vault/porn-vault-plugins/blob/master/plugins/PromisedScene/README.md) |
-| [Download link for: 0.27](https://raw.githubusercontent.com/porn-vault/plugins/0.27/dist/PromisedScene.js)     | [documentation](https://github.com/porn-vault/porn-vault-plugins/blob/0.27/plugins/PromisedScene/README.md)   |
 
 
 ### Documentation
@@ -31,20 +30,28 @@ If no match is found, and `manualTouch` is enabled, you will be able to interact
 
 ### Changelog
 
-- **0.4.2 - server 0.27**
-- - Fix: labels were not being returned
+#### 0.4.3 - server 0.27
+
+- Fix: would remove actors when actors were piped, but tpdb returned no actors
 
 <details>
   <summary>Show old versions</summary>
-  
-- **0.4.1 - server 0.27**
-- - Added API key support for 0.4.0 series (see 0.3.2).
 
-- **0.4.0 - server 0.27**
-- - Added support for porn-vault 0.27
+#### 0.4.2 - server 0.27
 
-- **0.3.2 - server 0.26**
-- - As of 15/04/2021, an API key is required. See `args.apiKey`
+- Fix: labels were not being returned
+
+#### **0.4.1 - server 0.27**
+
+- Added API key support for 0.4.0 series (see 0.3.2).
+
+#### **0.4.0 - server 0.27**
+
+- Added support for porn-vault 0.27
+
+#### **0.3.2 - server 0.26**
+
+- As of 15/04/2021, an API key is required. See `args.apiKey`
 
 </details>
 
